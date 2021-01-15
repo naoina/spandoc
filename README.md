@@ -1,6 +1,6 @@
 # Spandoc
 
-Spandoc is a tool to generate documentations from schema of [Cloud Spanner](https://cloud.google.com/spanner/).
+Spandoc is a tool to generate documentations from DDL of [Cloud Spanner](https://cloud.google.com/spanner/).
 
 ## Installation
 
@@ -9,6 +9,8 @@ go get -u github.com/naoina/spandoc/cmd/spandoc
 ```
 
 ## Usage
+
+Write DDL of Cloud Spanner to a file (in this example, use `schema.sql`).
 
 ```sql
 /* This is User table. */
